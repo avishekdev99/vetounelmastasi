@@ -446,7 +446,7 @@ position: relative;
     width: 35%;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     padding: 25px;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     background: #fff;
 }
@@ -470,6 +470,8 @@ position: relative;
     justify-content: center;
     align-items: center;
     position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;
 }
 
 
@@ -501,6 +503,7 @@ padding: 3px 0;
     font-size: 18px;
     font-weight: 500;
     color: #000;
+    text-decoration: underline;
 }
 
 /* sub pages css end */
