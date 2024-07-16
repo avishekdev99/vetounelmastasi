@@ -83,7 +83,7 @@ img {
 
 /* header css start  */
 .toggle {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #ffffff;
     line-height: normal;
 }
@@ -92,7 +92,7 @@ img {
     filter: brightness(0) invert(1);
 }
 .contact-btn a {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: capitalize;
     font-weight: 500;
     color: #ffffff;
@@ -138,7 +138,6 @@ nav {
     color: #202020;
 }
 .fixHeader .site-logo img {
-    max-width: 300px;
     filter: brightness(1) invert(0);
 }
 /* header css end */
@@ -171,7 +170,7 @@ position: relative;
     position: relative;
 }
 .banner-text h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #fff;
     text-transform: capitalize;
     margin-bottom: 0;
@@ -244,7 +243,7 @@ position: relative;
 }
 .main-nav ul li a {
     width: 100%;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
     display: flex;
     align-items: center;
@@ -282,7 +281,7 @@ position: relative;
     height: auto;
 }
 .main-nav .drop-down li a{
-    font-size: 16px;
+    font-size: 1rem;
 }
 .main-nav .drop-down li{
     padding: 2px;
@@ -298,13 +297,13 @@ position: relative;
 }
 /* hero section css end */
 .top-text p{
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
 }
 
 /* about section css start */
 .abt-text p {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
 }
 .abt-text p:last-child{
@@ -354,7 +353,7 @@ position: relative;
     object-fit: cover;
 }
 .link-img{
-    height: 400px;
+    height: 350px;
 }
 .link-img a{
     display: inline-block;
@@ -372,10 +371,7 @@ position: relative;
     width: 100%;
     background-color: #1a453159;
     transition: all 0.3s linear;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -ms-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
+
 }
 .link-img a:hover::before{
     height: 100%;
@@ -386,7 +382,7 @@ position: relative;
     background: #1a4531;
 }
 .link-text h3 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-bottom: 0;
     color: #fff;
     font-weight: 500;
@@ -411,7 +407,7 @@ position: relative;
     margin-bottom: 20px;
 }
 .footer-links ul li a {
-    font-size: 17px;
+    font-size: 1.0625rem;
     color: #000;
 }
 .footer-links ul li a:hover{
@@ -424,7 +420,7 @@ position: relative;
     margin-top: 20px;
 }
 .copy-right p, .copy-right a{
-    font-size: 16px;
+    font-size: 1rem;
     color: #202020;
     margin-bottom: 0;
 }
@@ -444,18 +440,17 @@ position: relative;
 }
 .hotel-left {
     width: 35%;
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-    padding: 25px;
-    /* position: absolute; */
-    left: 0;
+    padding: 100px 25px;
     background: #fff;
+    display: flex;
+    align-items: center;
 }
 .second-hotel{
     right: 0;
 }
 .hotel-right{
     width: 65%;
-    height: 100%;
+    /* height: 100%; */
 }
 .hotel-img{
     height: 100%;
@@ -468,7 +463,6 @@ position: relative;
 .hotel-wrap{
     display: flex;
     justify-content: center;
-    align-items: center;
     position: relative;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-bottom: 30px;
@@ -477,12 +471,12 @@ position: relative;
 
 
 .hotel-text h3 a {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #000;
     margin-bottom: 10px;
 }
 .hotel-text p {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 10px;
     color: #202020;
 }
@@ -495,15 +489,161 @@ position: relative;
     margin: 10px 0;
 }
 .hotel-text ul li{
-font-size: 16px;
+font-size: 1rem;
 color: #202020;
 padding: 3px 0;
 }
 .vist-web a{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     color: #000;
     text-decoration: underline;
 }
-
+.bottom-text p{
+    font-size: 1rem;
+    text-align: center;
+}
 /* sub pages css end */
+
+/* faq page css start */
+
+
+.accordion .accordion-item {
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    /* padding: 0 20px; */
+  }
+  
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #1a4531;
+  }
+  
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #202020;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #1a4531;
+  }
+  .accordion-item {
+    border: 1px solid #202020;
+}
+  .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #1a4531;
+    border: 1px solid #1a4531;
+  }
+  
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  
+  .accordion button[aria-expanded='true'] {
+    color: #1a4531;
+  }
+  .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+  }
+  .feedback-heading h3 {
+    font-size: 1.75rem;
+    color: #000;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.feedback-heading p {
+    font-size: 1rem;
+    color: #202020;
+    margin-bottom: 10px;
+}
+/* faq page css end */
+
+/* contact us css start */
+.contact-img {
+    height: 100%;
+}
+.contact-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.contact-wrap h3 {
+    font-size: 1.5625rem;
+    margin-bottom: 5px;
+    color: #000;
+}
+.contact-wrap p {
+    font-size: 1rem;
+    color: #202020;
+    margin-bottom: 5px;
+}
+.contact-wrap p a{
+    font-weight: 600;
+    color: #000;
+}
+.contact-wrap {
+    margin: 20px 0;
+}
+/* contact us css end */
