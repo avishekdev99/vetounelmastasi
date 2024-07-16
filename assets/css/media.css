@@ -85,7 +85,12 @@
     .footer-logo img {
         max-width: 300px;
     }
- 
+    .accordion button[aria-expanded='true'] + .accordion-content {
+        max-height: max-content;
+    }
+    .contact-img {
+        height: 300px;
+    }
 }
 
 @media(max-width:575px){
@@ -123,6 +128,12 @@
     }
     .hotel-img {
         height: 300px;
+    }
+    .accordion button {
+        padding: 1em 1.5rem 1em 0;
+    }
+    .feedback-heading h3 {
+        font-size: 1.6rem;
     }
 }
 
