@@ -23,3 +23,7 @@
            $('.site-header').removeClass('fixHeader');
         }
     });
+
+    AOS.init({
+        duration: 1000
+      });

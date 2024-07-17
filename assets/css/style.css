@@ -343,6 +343,7 @@ position: relative;
 .about-sec {
     background-color: #EEE7DA;
     padding: 70px  0;
+    overflow: hidden;
 }
 /* about section css end */
 
@@ -447,6 +448,9 @@ position: relative;
 }
 .second-hotel{
     right: 0;
+}
+.hotel-main{
+    overflow: hidden;
 }
 .hotel-right{
     width: 65%;
@@ -644,6 +648,32 @@ padding: 3px 0;
     color: #000;
 }
 .contact-wrap {
+    margin: 20px 0;
+}
+.privacy-wrap p{
+    font-size: 1rem;
+    color: #202020;
+    margin-bottom: 10px;
+    word-break: break-all;
+
+}
+.privacy-wrap p a{
+    color: #000;
+    font-weight: 600;
+}
+.privacy-wrap p strong{
+    color: #000;
+}
+.privacy-wrap ul{
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+.privacy-wrap ul li {
+    font-size: 1rem;
+    padding: 2px 0;
+}
+.privacy-wrap{
     margin: 20px 0;
 }
 /* contact us css end */
