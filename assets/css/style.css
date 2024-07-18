@@ -458,11 +458,17 @@ position: relative;
 }
 .hotel-img{
     height: 100%;
+    overflow: hidden;
+}
+.hotel-img:hover img{
+    transform: scale(1.2);
 }
 .hotel-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s linear;
+
 }
 .hotel-wrap{
     display: flex;
